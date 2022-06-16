@@ -1,0 +1,41 @@
+.mainContainer{
+    border-top: 1px solid grey;
+    display: flex;
+    width:100%;
+    letter-spacing: 1px;
+    padding: 1px;
+    line-height: 40px;
+    margin: 0;
+
+}
+.containerOne{
+    width:35%;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.5);
+    
+}
+.containerOne div{
+    border-bottom: 2px solid grey;
+}
+.containerOne span{
+  font-size: 20px;
+}
+.containerTwo{
+    width:55%;
+}
+.containerTwo div{
+    border-bottom: 1px solid grey;
+}
+.containerTwo a{
+    margin-left: 2px;
+}
+.ContainerThree{
+    border-top: 1px solid grey;
+    display: flex;
+    gap:2%;
+}
+.ContainerThree i{
+    margin-top: 8px;
+    margin-left:10px;
+    font-size: 20px;
+}
