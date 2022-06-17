@@ -3,7 +3,6 @@ import { useState,useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'
 import React from 'react'
 
-
 import data from '../db'
 
 
@@ -11,10 +10,6 @@ function Indiapage({
   img,category,title,desc
 }) {
 
-React.useEffect(() => {
-  console.log(data.india)
-  console.log(data.india.length)
-},[])
 return (
       <>
     
@@ -38,7 +33,7 @@ const India = () => {
 
   return (
     <>
-    <p style={{marginBottom:"20px",marginTop:"30px",marginLeft:"660px",fontWeight:"600",width:"210px",fontSize:"30px",borderBottom:"5px solid #f3a342"}}>HEALTH NEWS</p>
+    <p style={{marginBottom:"20px",marginTop:"30px",marginLeft:"660px",fontWeight:"600",width:"210px",fontSize:"30px",borderBottom:"5px solid #f3a342"}}>INDIA NEWS</p>
     <div>
         {
           data.india.map(item =>
